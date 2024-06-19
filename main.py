@@ -33,7 +33,7 @@ news_api_key = os.environ['NEWS_API_KEY']
 
 news_url = "https://newsapi.org/v2/everything"
 news_params = {
-    'q': COMPANY_NAME,
+    'qInTitle': COMPANY_NAME,
     'from': yesterday_str,
     'pageSize': 3,
     'apiKey': news_api_key,
